@@ -221,7 +221,7 @@ body {
     height: 1000px;
     /* background-color: #313339; */
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-                url("./Assets/Home_Background.avif");
+                url("Home_Background.avif");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
