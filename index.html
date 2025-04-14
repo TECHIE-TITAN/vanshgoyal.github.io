@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <a class ="header-logo">V</a>
+        <nav class ="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#education">Education</a>
+            <a href="#achievements">Achievements</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+            <a href="#text-analysis" class="nav-special">Text Analysis</a>
+        </nav>
+    </header>
+    <section id="home" class="home">
+        <div class="home-content">
+            <h1 class="animate-text">Hi, I am Vansh Goyal</h1>
+            <h3 class="typing-text">
+                <span class="text-content"></span>
+                <span class="cursor">|</span>
+            </h3>
+            <div class="home-content-button animate-btn">
+                <a href="#contact">Connect With Me</a>
+            </div>
+        </div>
+        <div class="home-image">
+            <img src="/Assets/Home_Profile.png" class="animate-img">
+        </div>
+    </section>
+    <section id="about" class="about">
+        <div class="about-content">
+            <div class="about-left">
+                <div class="about-image-container">
+                    <img src="/Assets/AboutMe_Profile.png" class="animate-img">
+                </div>
+            </div>
+            <div class="about-right">
+                <h1 class="animate-text"><span>About</span> Me...</h1>
+                <img src="/Assets/Underline.png">
+                <div class="about-testimonials">
+                    <div class="about-testimonials-content">
+                        <p class="animate-text">I am passionate about leveraging technology to create impactful solutions that contribute to the betterment of the world. With a keen interest in software development, I aspire to become a full-stack developer or work with software for IoT machines. I enjoy building applications that enhance efficiency, improve lives, and solve real-world problems. Constantly eager to learn, I focus on refining my skills through hands-on experience, modifying existing code, and exploring innovative technologies. My goal is to develop intelligent, scalable, and user-centric solutions that drive meaningful change.</p>
+                    </div> 
+                    <!-- Here are a few snapshots from my birthplace (scroll button) -->
+                    <div class="about-actions">
+                        <div class="scroll-to-carousel">
+                            <button class="carousel-scroll-btn animate-btn">
+                              <span>View Gallery</span>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 5v14M5 12l7 7 7-7"/>
+                              </svg>
+                            </button>
+                        </div>
+                        <div class="pdf-download">
+                            <a href="path/to/your/file.pdf" class="pdf-download-btn animate-btn" download>
+                                <span>Download CV</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                                    <polyline points="7 10 12 15 17 10"/>
+                                    <line x1="12" y1="15" x2="12" y2="3"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+    <div id="about-carousel" class="about-carousel">
+        <h2 class="animate-text">The <span>City Beautiful ...</span></h2>
+        <div class="carousel-container">
+            <button class="carousel-arrow prev-arrow animate-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M15 18l-6-6 6-6"/>
+                </svg>
+            </button>
+      
+            <div class="carousel-track-container">
+                <div class="carousel-track">
+                    <div class="carousel-slide">
+                        <div class="carousel-image-container">
+                            <img src="/Assets/Chd-1.jpeg" class="animate-img">
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <div class="carousel-image-container">
+                            <img src="/Assets/Chd-2.jpeg" class="animate-img">
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <div class="carousel-image-container">
+                            <img src="/Assets/Chd-3.jpeg" class="animate-img">
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <div class="carousel-image-container">
+                            <img src="/Assets/Chd-4.jpeg" class="animate-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-arrow next-arrow animate-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 18l6-6-6-6"/>
+                </svg>
+            </button>
+        </div>
+    
+        <div class="carousel-dots"></div>
+    </div>  
+    </section>
+    <section id="education" class="education">
+        <div class="education-content">
+            <h1 class="animate-text">My <span>Education</span> Background</h1>
+            <img src="/Assets/Underline.png" class="animate-img">
+            <div class="education-timeline">
+                <div class="education-timeline-item">
+                    <div class="education-timeline-content">
+                        <h3 class="animate-text">2024 - Present</h3>
+                        <h4 class="animate-text">Bachelor of Technology in Computer Science Engineering</h4>
+                        <p class="animate-text">International Institute of Information and Technology, Hyderabad</p>
+                        <p class="animate-text">Ending first year with great learnings on Web Development, IoT, Data Structures and Algorithms, Assembly Programming and many programming languages.</p>
+                    </div>
+                </div>
+                <div class="education-timeline-item">
+                    <div class="education-timeline-content">
+                        <h3 class="animate-text">2022 - 2024</h3>
+                        <h4 class="animate-text">Senior Secondary Education</h4>
+                        <p class="animate-text">Stepping Stones Senior Secondary School, Chandigarh</p>
+                        <p class="animate-text">Focused on Physics, Chemistry, and Mathematics.</p>
+                    </div>
+                </div>
+                <div class="education-timeline-item">
+                    <div class="education-timeline-content">
+                        <h3 class="animate-text">2020 - 2022</h3>
+                        <h4 class="animate-text">Secondary Education</h4>
+                        <p class="animate-text">Delhi Public School, Chandigarh</p>
+                        <p class="animate-text">Developed an early interest in programming and electronics. Participated in many tech events around the country.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="achievements" class="achievements">
+      <div class="achievements-header">
+          <h1 class="animate-text">My <span>Achievements</span></h1>
+          <img src="/Assets/Underline.png" class="animate-img">
+      </div>
+      
+      <div class="achievements-container">
+          <div class="achievement-block reverse">
+              <div class="achievement-image">
+                  <img src="/Assets/Achieve_JEEAdv.jpg" class="animate-img" height="300px"alt="Personal Portfolio Website">
+              </div>
+              <div class="achievement-info">
+                  <h3 class="animate-text">Qualified JEE Advanced with Flying Colors</h3>
+                  <p class="achievement-tags animate-text">Physics, Chemistry, Mathematics</p>
+                  <p class="achievement-description animate-text">
+                      Secured a whopping AIR 2656 in JEE Advanced 2024. 
+                  </p>
+              </div>
+          </div>
+          <div class="achievement-block">
+              <div class="achievement-image">
+                  <img src="/Assets/Achieve_12th.png" class="animate-img" height="300px" alt="E-commerce Dashboard">
+              </div>
+              <div class="achievement-info">
+                  <h3 class="animate-text">CBSE Class 12th Board Examinations</h3>
+                  <p class="achievement-tags animate-text">Physics, Chemistry, Mathematics, English, Physical Education</p>
+                  <p class="achievement-description animate-text">
+                      Secured a commendable 92.2% in CBSE Class 12th Board Examinations.
+                  </p>
+              </div>
+          </div>
+          <div class="achievement-block reverse">
+              <div class="achievement-image">
+                  <img src="/Assets/Achieve_JEEMains.jpg" class="animate-img" height="300px" alt="E-commerce Dashboard">
+              </div>
+              <div class="achievement-info">
+                  <h3 class="animate-text">Qualified JEE Mains</h3>
+                  <p class="achievement-tags animate-text">Physics, Chemistry, Mathematics</p>
+                  <p class="achievement-description animate-text">
+                      Secured AIR 529 in JEE Mains 2024 Examination. I was also ranked 3rd in my city Chandigarh in the first session.
+                  </p>
+              </div>
+          </div>
+          <div class="achievement-block">
+            <div class="achievement-image">
+                <img src="/Assets/Achieve_10th.jpg" class="animate-img" alt="E-commerce Dashboard">
+            </div>
+            <div class="achievement-info">
+                <h3 class="animate-text">CBSE Class 10th Board Examinations</h3>
+                <p class="achievement-tags animate-text">Science, Mathematics, English, Punjabi, SST</p>
+                <p class="achievement-description animate-text">
+                    Secured a commendable 97.7% in CBSE Class 10th Board Examinations and subject proficiency in Mathematics for scoring 100% in the subject.
+                </p>
+            </div>
+          </div>
+          <div class="achievement-block reverse">
+            <div class="achievement-image">
+                <img src="/Assets/Achieve_Technovision.png" class="animate-img" alt="E-commerce Dashboard">
+            </div>
+            <div class="achievement-info">
+                <h3 class="animate-text">2nd Place at Technovision</h3>
+                <p class="achievement-tags animate-text"></p>
+                <p class="achievement-description animate-text">
+                    Won 2nd place at the tech competition Technovision organised by Ahlcon Public School, New Delhi. It was an interschool competition where schools all around the country participated. The quest was to make a project that solves some problem. Me and my partner made a smart dustbin which enhanced the medical waste decomposition safety and reduced the risk of virus spreading through open bins and contact.
+                </p>
+            </div>
+          </div>
+      </div>
+  </section>
+    <section id="skills" class="skills">
+        <div class="skills-content">
+            <h1 class="animate-text">My <span>Developer</span> Skills</h1>
+            <img src="/Assets/Underline.png" class="animate-img">
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h2 class="animate-text">Frontend</h2>
+                    <ul class="skills-list">
+                        <li class="skill-item">
+                            <div class="skill-name">
+                                <span>HTML5 / CSS3</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-level">
+                                <div class="skill-fill" style="width: 95%;"></div>
+                            </div>
+                        </li>
+                        <li class="skill-item">
+                            <div class="skill-name">
+                                <span>JavaScript</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="skill-level">
+                                <div class="skill-fill" style="width: 70%;"></div>
+                            </div>
+                        </li>
+                        <li class="skill-item">
+                            <div class="skill-name">
+                                <span>Responsive Design</span>
+                                <span>60%</span>
+                            </div>
+                            <div class="skill-level">
+                                <div class="skill-fill" style="width: 60%;"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h2 class="animate-text">Backend</h2>
+                    <ul class="skills-list">
+                        <li class="skill-item">
+                            <div class="skill-name">
+                                <span>RESTful APIs</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="skill-level">
+                                <div class="skill-fill" style="width: 70%;"></div>
+                            </div>
+                        </li>
+                        <li class="skill-item">
+                            <div class="skill-name">
+                                <span>Postman</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="skill-level">
+                                <div class="skill-fill" style="width: 70%;"></div>
+                            </div>
+                        </li>
+                        <li class="skill-item">
+                            <div class="skill-name">
+                                <span>Jinja</span>
+                                <span>60%</span>
+                            </div>
+                            <div class="skill-level">
+                                <div class="skill-fill" style="width: 60%;"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h2 class="animate-text">Programming</h2>
+                    <ul class="skills-list">
+                        <li class="skill-item">
+                            <div class="skill-name">
+                                <span>Python</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-level">
+                                <div class="skill-fill" style="width: 85%;"></div>
+                            </div>
+                        </li>
+                        <li class="skill-item">
+                            <div class="skill-name">
+                                <span>C</span>
+                                <span>100%</span>
+                            </div>
+                            <div class="skill-level">
+                                <div class="skill-fill" style="width: 100%;"></div>
+                            </div>
+                        </li>
+                        <li class="skill-item">
+                            <div class="skill-name">
+                                <span>SQL</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-level">
+                                <div class="skill-fill" style="width: 80%;"></div>
+                            </div>
+                        </li>
+                        <li class="skill-item">
+                            <div class="skill-name">
+                                <span>Bash Script</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-level">
+                                <div class="skill-fill" style="width: 90%;"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h2 class="animate-text">Game Development</h2>
+                    <ul class="skills-list">
+                        <li class="skill-item">
+                            <div class="skill-name">
+                                <span>PyGame</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-level">
+                                <div class="skill-fill" style="width: 75%;"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="contact-form">
+            <h2 class="animate-text"><span>Contact</span> Me</h2>
+            <form>
+                <input type="text" placeholder="Full Name" required />
+                <input type="email" placeholder="Email ID" required />
+                <input type="text" placeholder="Phone No." required/>
+                <input type="text" placeholder="Subject" required/>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+    <section id="text-analysis" class="text-analysis">
+        <div class="text-analysis-content">
+            <h1>Text <span>Analysis</span> Tool</h1>
+            <img src="/Assets/Underline.png">
+            <div class="text-input-container">
+                <textarea id="text-input" placeholder="Enter your text here (up to 10,000 words)..." rows="10"></textarea>
+                <button id="analyze-btn">Analyze Text</button>
+            </div>
+            <div id="analysis-results" class="analysis-results">
+                <!-- Results will be displayed here -->
+            </div>
+        </div>
+    </section>
+    <script src="/Scripts/script.js"></script>
+    <script src="/Scripts/animations.js"></script>
+    <script src="/Scripts/q2.js"></script>
+    <script src="/Scripts/q3.js"></script>
+</body>
+</html>
