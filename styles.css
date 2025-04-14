@@ -322,7 +322,7 @@ body {
 .about{
     height: auto;
     background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-                url("/Assets/AboutMe_Background.avif");
+                url("AboutMe_Background.avif");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -684,7 +684,7 @@ body {
     min-height: 1250px;
     /* background-color: #313339; */
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-                url("/Assets/Education_Background.jpg");
+                url("Education_Background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -798,7 +798,7 @@ body {
     min-height: 1250px;
     /* background-color: #313339; */
     background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-                url("/Assets/Achievements_Background.jpg");
+                url("Achievements_Background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -986,7 +986,7 @@ body {
     height: auto;
     min-height: 1250px;
     background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-                url("/Assets/Skills_Background.png");
+                url("Skills_Background.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1167,7 +1167,7 @@ footer {
     height: auto;
     min-height: 1000px;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-                url("Assets/Contact_Background.png");
+                url("Contact_Background.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1241,7 +1241,7 @@ footer {
     height: auto;
     min-height: 1000px;
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-                url("/Assets/TextAnalyzer_Background.jpg");
+                url("TextAnalyzer_Background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
